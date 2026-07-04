@@ -1,6 +1,13 @@
-So this is where I would be putting stuff for you to do right 
+So this is where I would be putting stuff for you to do right
 when I push to github I will create something called a pull request and make you review it which will send you an email for every push I make
 You merge the brach with main and complete the work and then tell me then I will check
+
+WHAT THE SITE IS ABOUT:
+Pageone is an IT/software firm that builds custom software for people - things like websites, mobile apps, and internal tools for clients. The hero section "Find quick solution with our Smart Search" is about helping visitors quickly find the right service for their problem. Use this as the theme for every page you build:
+- Home = the hero pitch, inviting visitors to search for the service they need
+- About us = who Pageone is, our mission, why clients should trust us
+- Products = the software/services we build (e.g. Web Development, Mobile Apps, Custom Software, IT Consulting)
+- Features = why clients pick us (e.g. Fast Delivery, Dedicated Support, Modern Tech Stack, Affordable Pricing)
 
 
 TODO - 3rd July
@@ -11,3 +18,48 @@ Due - 5th July
 
 2. >>Add needed css to index.css so it mimics the reference image
    >>I will provide youtube links as well
+
+
+
+   TODO - 4th July
+   Due - 11th July
+
+   >>WORK ON THE 4 NAV LINK PAGES (Home, About us, Products, Features)
+   >>Right now they're just anchor links (#) with no pages behind them - let's fix that
+
+1. >>Build the Home page
+   >>This is basically the hero section we already have, so it should feel like the starting point of the site
+
+
+
+
+
+
+
+
+2. >>Build the About us page
+   >>Tell visitors who Pageone is and what the product does - doesn't need to be fancy, just clear
+
+3. >>Build the Products page
+   >>List out what Pageone offers, even if it's just placeholder cards for now
+
+4. >>Build the Features page
+   >>Highlight the Smart Search idea from the hero section and any other features you want to show off
+
+   >>Link each nav item to its real page instead of "#" once these are ready
+
+5. >>Design a new logo for the site in Photoshop
+   >>Replace the placeholder SVG icon in the navbar with something that actually represents Pageone 
+
+
+
+
+
+
+
+
+
+
+
+
+   
