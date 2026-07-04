@@ -65,3 +65,21 @@ nav {
 .search-bar input::placeholder { 
   color: #ddd;
 }
+/* Make everything visible on the background */
+nav {
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 15px;
+}
+.search-bar {
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 8px;
+}
+.search-bar input::placeholder {
+  color: #eee;
+}
+h1, p {
+  color: white;
+}
