@@ -1,63 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Pagegone Hero Section</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pageone Hero Section</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2/ family=Inter:wght@400;500;600;700&display=swap');
-        body { font-family: 'Inter',sans-serif;}
-    </style>
-    </head>
-    <body>
-        <!-- Hero Section -->
-         <div class="relative min-h-screen bg-cover bg-center bg-no-repeat"
-         style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075');"></div>
-         
-         <!-- Navbar -->
-          <nav class="absolute top-0 left-0 right-0 z-10 px-6 py-6 lg:px-12"></nav>
-          <div class="flex items-center justify-between"></div>
+</head>
+<body>
+    <div class="relative w-full h-screen bg-cover bg-center bg-no-repeat"
+         style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c')">
+        
+        <nav class="absolute top-0 left-0 right-0 z-20 px-6 py-5 lg:px-12">
+            <div class="flex items-center justify-between text-white">
+                <div class="flex items-center gap-2">
+                    <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+                    <span class="text-2xl font-bold">Pageone</span>
+                </div>
+                <div class="hidden md:flex items-center gap-8 text-lg">
+                    <a href="#">Home</a>
+                    <a href="#">Properties</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </nav>
 
-          <!-- Logo -->
-           <div class="flex items-center gap-2"></div>
-           <svg class="w-8 h-8 text-white" fill="currentcolor" viewBox="0 0 24 24"<path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
-    <span class="text-white text-xl font-semibold">Pagegone</span>
-</div>
-
-<!-- Nav Links - Hidden on mobile -->
- <div class="hidden lg:flex items-center gap-8 text-white"></div>
-     <a href="#" class="hover:text-gray-300">Home</a>
-      <a href="#" class="hover:text-gray-300">properties</a>
- <a href="#" class="hover:text-gray-300">About us</a>
- <a href="#" class="hover:text-gray-300">contact</a>
-    </div>
-    </div>
-    </nav>
-      <!-- HERO CONTENT -->
-      <div class="relative z-10 flex-col items-center justify-center text-center text-white h-screen px-4">
-        <h1 class="text-5xl md:text-6xl font-bold mb-4">Find Your Dream Home</h1>
-        <p class="text-xl mb-8">Premium Real Estate in Ghana</p>
-
-        <!-- SEARCH BAR -->
-        <div class="bg-white rounded-lg p-2 flex gap-2 max-w-2xl w-full">
-          <input type="text" placeholder="search location, price, property type..." class="flex-1 p-3 text-black outline-none rounded">
-          <button class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded font-semibold">
-            search
-          </button>
+        <div class="relative z-10 flex-col items-center justify-center text-center text-white h-full px-4">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Find Your Dream Home</h1>
+            <p class="text-lg md:text-xl mb-8">Premium Real Estate in Ghana</p>
+            <div class="bg-white rounded-lg shadow-lg p-2 flex-col md:flex-row gap-2 w-full max-w-3xl">
+                <input type="text" placeholder="Search location, price, property type..." 
+                       class="flex-1 p-3 text-black outline-none rounded">
+                <button class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded font-semibold">
+                    Search
+                </button>
+            </div>
         </div>
-      </div>
-
- products
- <svg class="w-4 h-4" fill="none" stroke="currentcolor" viewBox="0 0 24 24"></svg>
- <path stroke-linecap="round" stroke-linejion="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-</svg>
-</a>
-<a href="#" class="flex items-center gap-1 hover:text-gray-300"></a>
-Features
-<svg class="w-4 h-4" fill="none" stroke="currentcolor" viewBox="0 0 24 24"></svg>
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
-</svg>
-</a>
-</div>
+    </div>
+</body>
+</html>
