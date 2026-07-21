@@ -6,7 +6,7 @@
 }
 
 body{
-    <background:#f2f2f2;
+    background:#f2f2f2;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -46,7 +46,7 @@ input{
     margin:15px;
     text-decoration:none;
     color:black;
-    font-wieght:bold;
+    font-weight:bold;
     font-size:14px;
 }
 .login-btn{
