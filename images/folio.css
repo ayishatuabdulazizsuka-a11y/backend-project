@@ -1,0 +1,41 @@
+* body {
+  font-size: 30px;
+  font-family: verdana,sans-serif;
+  border: 0 auto;
+  background: fixed;
+  color: blue;
+  line-height: 1.5;
+  padding: 40px;
+  max-width: 800px;
+  margin:0 auto;
+}
+.h1 {
+    font-size: 20;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav {
+    margin-bottom: 30px;
+}
+.nav{
+    text-decoration: none;
+    color: brown;
+    margin-left: 20px;
+    font-size: bold;
+}
+.h2 {
+    font-size: medium;
+    margin-top:15px;
+    margin-bottom: 10px;
+    color: antiquewhite;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    
+}
+.p{
+    font-family: Arail,serif;
+    font-size: 10px;
+}
