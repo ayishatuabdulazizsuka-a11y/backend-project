@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #e8eeff;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+/* =========================
+   GENERAL CARD
+========================= */
+
+.card {
+    width: 185px;
+    height: 400px;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/* =========================
+   LEFT CARD
+========================= */
+
+.welcome-card {
+    background: linear-gradient(
+        145deg,
+        #7890dc,
+        #536fc4,
+        #293c7b
+    );
+    color: white;
+}
+
+.welcome-content {
+    position: absolute;
+    top: 145px;
+    left: 25px;
+    z-index: 5;
+}
+
+.welcome-content h1 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.welcome-content p {
+    font-size: 9px;
+    line-height: 1.4;
+}
+
+.welcome-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    z-index: 10;
+}
+
+.welcome-bottom span {
+    font-size: 10px;
+}
+
+.welcome-bottom button {
+    height: 45px;
+    width: 90px;
+
+    border: none;
+    border-radius: 15px 0 0 0;
+
+    background: white;
+    color: #4164bd;
+
+    font-size: 10px;
+}
+
+
+/* =========================
+   DECORATIVE CIRCLES
+========================= */
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle1 {
+    width: 70px;
+    height: 70px;
+    background: #172d69;
+    top: -15px;
+    left: -25px;
+}
+
+.circle2 {
+    width: 80px;
+    height: 80px;
+    background: #91a6e7;
+    top: 30px;
+    right: -20px;
+}
+
+.circle3 {
+    width: 45px;
+    height: 45px;
+    background: #d2ddff;
+    top: 85px;
+    right: 15px;
+}
+
+.circle4 {
+    width: 35px;
+    height: 35px;
+    background: #d5e0ff;
+    bottom: 105px;
+    left: 10px;
+}
+
+.circle5 {
+    width: 75px;
+    height: 75px;
+    background: #18377e;
+    bottom: -20px;
+    left: 45px;
+}
+
+
+/* =========================
+   MIDDLE + RIGHT CARDS
+========================= */
+
+.form-card {
+    background: #7188d2;
+}
+
+.top-design {
+    position: absolute;
+    width: 100%;
+    height: 125px;
+    overflow: hidden;
+}
+
+.top-circle1 {
+    width: 65px;
+    height: 65px;
+    background: #1d3474;
+    top: -20px;
+    left: -20px;
+}
+
+.top-circle2 {
+    width: 80px;
+    height: 80px;
+    background: #d9e3ff;
+    top: -25px;
+    right: 5px;
+}
+
+.top-circle3 {
+    width: 55px;
+    height: 55px;
+    background: #9db4ee;
+    top: 45px;
+    right: 10px;
+}
+
+
+/* =========================
+   WHITE FORM AREA
+========================= */
+
+.form-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    min-height: 305px;
+
+    background: white;
+    border-radius: 18px 18px 0 0;
+
+    padding: 18px 12px 12px;
+}
+
+.back {
+    font-size: 8px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.back i {
+    font-size: 7px;
+    margin-right: 3px;
+}
+
+.form-box h2 {
+    text-align: center;
+    color: #4164bd;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+
+/* =========================
+   INPUTS
+========================= */
+
+.form-box > input {
+    display: block;
+    width: 100%;
+    height: 25px;
+
+    margin-bottom: 7px;
+
+    border: 1px solid #ddd;
+    border-radius: 7px;
+
+    padding: 0 8px;
+
+    font-size: 8px;
+    outline: none;
+}
+
+.form-box > input:focus {
+    border-color: #4164bd;
+}
+
+
+/* =========================
+   CHECKBOX
+========================= */
+
+.check {
+    display: flex;
+    align-items: flex-start;
+    gap: 4px;
+
+    font-size: 7px;
+    color: #777;
+
+    margin: 7px 0 12px;
+}
+
+.check input {
+    width: 10px;
+    height: 10px;
+}
+
+
+/* =========================
+   MAIN BUTTON
+========================= */
+
+.main-button {
+    width: 100%;
+    height: 28px;
+
+    border: none;
+    border-radius: 7px;
+
+    background: #4169c5;
+    color: white;
+
+    font-size: 9px;
+}
+
+
+/* =========================
+   SOCIAL MEDIA
+========================= */
+
+.social-title {
+    text-align: center;
+    font-size: 7px;
+    color: #999;
+
+    margin: 12px 0 8px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.social i {
+    font-size: 12px;
+    color: #4169c5;
+}
+
+
+/* =========================
+   BOTTOM TEXT
+========================= */
+
+.account {
+    text-align: center;
+    font-size: 7px;
+    color: #999;
+
+    margin-top: 12px;
+}
+
+.account b {
+    color: #4169c5;
+}
+
+
+/* =========================
+   REMEMBER / FORGOT
+========================= */
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 7px;
+    color: #777;
+
+    margin: 7px 0 14px;
+}
+
+.remember label {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.remember input {
+    width: 10px;
+    height: 10px;
+}
+
+.remember span {
+    color: #4169c5;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 700px) {
+
+    .container {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+}
