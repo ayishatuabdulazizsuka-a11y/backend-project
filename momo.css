@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+/* Header */
+header {
+    background-color: #007b5e;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    font-size: 28px;
+}
+/*Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+/* Main section */
+main {
+    padding: 40px;
+    text-align: center;
+}
+main h2 {
+    margin-bottom: 30px;
+}
+/* Balance card */
+.balance {
+    background: linear-gradient(135deg,#007b5e, #00a884);
+    color: white;
+    padding: 35px;
+    width: 350px;
+    margin: 25px auto;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center;
+}
+.balance h3 {
+    margin-bottom: 15px;
+}
+/* Buttons */
+.actions button {
+    background-color: #007b5e;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    transition: 0.3s ease;
+    font-weight: bold;
+    
+}
+.actions a:hover {
+    display: inline-block;
+    background-color: #007b5e;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.actions a:hover {
+    background-color: #005c46;
+}
+.actions button:hover {
+    background-color: #005c46;
+    transform: translateY(-3px);
+}
+.send-form {
+    background-color: white;\
+    width: 350px;
+    margin: 30px audio;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: none; 
+}
+.send-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.send-form label {
+    display: block;
+    text-align: left;
+}
+.send-form button {
+    background-color: #007b5e;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#message {
+    white-space: pre-line;
+    background-color: #e8f8f5;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    line-height: 2;
+    color: #087f70;
+    font-style: bold;
+}
+.receive-form {
+    background-color: white;
+    width: 350px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.receive-form h2 {
+    color: #007b5e;
+    margin-bottom: 20px;
+}
+.receive-form lebel {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.receive-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.receive-form button {
+    background-color: #007b5e;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.receive-form button:hover {
+    background-color: #005c46;
+}
+#message:not(:empty),
+#recieveMessage:not(:empty) {
+    background-color: white;
+    width: 350px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    border-left: 5px solid #007b5e;
+    color: #333;
+    text-align: left;
+    line-height: 2;
+    font-size: 15px;
+    white-space: pre-line;
+}
+.histroy-section {
+    background-color: white;
+    width: 90%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: none;
+}
+.histroy-section h2 {
+    color: #007b5e;
+    margin-bottom: 20px;
+}
+.histroy-section li {
+    list-style: none;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+.transactions {
+    background-color: white;
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 12px;
+    border-radius: 0 4px 10px rgba(0,0,0,0.1);
+}
+.transactions h2 {
+    color: #007b5e;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.transactions ul {
+    list-style: none;
+    padding: 0;
+}
+.transactions li {
+    background-color: #f4f6f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: left;
+    border-left: 4px solid #007b5e;
+    line-height: 1.8;
+    font-size: 14px;
+}
+@media screen and (max-width: 600px) {
+    .balance {
+        width: 85%;
+        padding: 25px 15px;
+    }
+    .actions-button {
+        width: 90%;
+        margin: 10px auto;
+        display: block;
+    }
+    .transactions {
+        width: 90%;
+        padding: 15px;
+    }
+    
+}
